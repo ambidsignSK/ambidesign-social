@@ -1,0 +1,48 @@
+name: Publikovanie FB + IG
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # každých 10 minút (GitHub môže spustenie o pár minút oneskoriť)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "publish = publikuj čo je na rade, check = over token, dry-run = len vypíš"
+        default: publish
+        type: choice
+        options: [publish, check, dry-run]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - name: Publikovať
+        env:
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+        run: |
+          MODE="${{ github.event.inputs.mode || 'publish' }}"
+          if [ "$MODE" = "check" ]; then python publisher/publish.py --check;
+          elif [ "$MODE" = "dry-run" ]; then python publisher/publish.py --dry-run;
+          else python publisher/publish.py; fi
+      - name: Uložiť stav
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain state)" ]; then
+            git config user.name "ambi-publisher"
+            git config user.email "actions@users.noreply.github.com"
+            git add state
+            git commit -m "Stav publikovania $(date -u +%FT%TZ)"
+            git pull --rebase -q && git push
+          fi

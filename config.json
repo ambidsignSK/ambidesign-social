@@ -3,5 +3,6 @@
   "repo": "ambidsignSK/ambidesign-social",
   "branch": "main",
   "graph_version": "v23.0",
-  "timezone": "Europe/Bratislava"
+  "timezone": "Europe/Bratislava",
+  "active": false
 }

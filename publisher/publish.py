@@ -177,6 +177,9 @@ def main():
         d = dbg.get("data", {})
         print("Token platný:", d.get("is_valid"), "| expiruje:", d.get("expires_at") or "nikdy", "| oprávnenia:", ",".join(d.get("scopes", [])))
         return
+    if not CONFIG.get("active", True) and "--dry-run" not in args:
+        print("Publikovanie je vypnuté (config.json: active=false).")
+        return
     now = dt.datetime.now(dt.timezone.utc)
     state = load_state()
     ig = None

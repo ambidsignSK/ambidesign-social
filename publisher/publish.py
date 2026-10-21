@@ -167,7 +167,8 @@ def due_posts(now):
 def main():
     args = set(sys.argv[1:])
     if not TOKEN:
-        sys.exit("Chýba META_PAGE_TOKEN")
+        print("META_PAGE_TOKEN zatiaľ nie je nastavený – nič nepublikujem.")
+        return
     if "--check" in args:
         page = api("GET", PAGE_ID, fields="name,instagram_business_account{id,username}")
         print("Stránka:", page.get("name"))

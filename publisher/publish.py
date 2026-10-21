@@ -170,13 +170,24 @@ def main():
         print("META_PAGE_TOKEN zatiaľ nie je nastavený – nič nepublikujem.")
         return
     if "--check" in args:
+      try:
         page = api("GET", PAGE_ID, fields="name,instagram_business_account{id,username}")
         print("Stránka:", page.get("name"))
         print("Instagram:", page.get("instagram_business_account"))
         dbg = requests.get(f"{GRAPH}/debug_token", params={"input_token": TOKEN, "access_token": TOKEN}, timeout=30).json()
         d = dbg.get("data", {})
         print("Token platný:", d.get("is_valid"), "| expiruje:", d.get("expires_at") or "nikdy", "| oprávnenia:", ",".join(d.get("scopes", [])))
-        return
+        ig = page.get("instagram_business_account") or {}
+        res = {"checked_at": dt.datetime.now(dt.timezone.utc).isoformat(), "page": page.get("name"),
+               "instagram": ig.get("username"), "token_valid": d.get("is_valid"), "token_type": d.get("type"),
+               "expires_at": d.get("expires_at"), "scopes": sorted(d.get("scopes", []))}
+        STATE_FILE.parent.mkdir(exist_ok=True)
+        (STATE_FILE.parent / "check.json").write_text(json.dumps(res, ensure_ascii=False, indent=2) + "\n")
+      except Exception as e:  # noqa
+        STATE_FILE.parent.mkdir(exist_ok=True)
+        (STATE_FILE.parent / "check.json").write_text(json.dumps({"checked_at": dt.datetime.now(dt.timezone.utc).isoformat(), "error": str(e)[:500]}, ensure_ascii=False, indent=2) + "\n")
+        print("CHYBA:", e)
+      return
     if not CONFIG.get("active", True) and "--dry-run" not in args:
         print("Publikovanie je vypnuté (config.json: active=false).")
         return

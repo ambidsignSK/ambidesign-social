@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-21T15:53:03.065512+00:00",
+  "page": "AmbiDesign",
+  "instagram": "ambidsign",
+  "token_valid": true,
+  "token_type": "PAGE",
+  "expires_at": 0,
+  "scopes": [
+    "business_management",
+    "instagram_basic",
+    "instagram_content_publish",
+    "pages_manage_posts",
+    "pages_read_engagement",
+    "pages_show_list",
+    "public_profile"
+  ]
+}

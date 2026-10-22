@@ -14,5 +14,37 @@
       "ok": true,
       "url": "https://www.instagram.com/reel/DewzB55kmSF/"
     }
+  },
+  "2026-10-22_09-00_pribeh-restauracia": {
+    "facebook": {
+      "at": "2026-10-22T10:41:11.357592+00:00",
+      "attempts": 1,
+      "id": "377022798835905_122228788628494366",
+      "ok": true,
+      "url": "https://facebook.com/377022798835905_122228788628494366"
+    },
+    "instagram": {
+      "at": "2026-10-22T10:41:27.911103+00:00",
+      "attempts": 1,
+      "id": "18037601507897843",
+      "ok": true,
+      "url": "https://www.instagram.com/p/DeyyqtOj_yK/"
+    }
+  },
+  "2026-10-22_11-00_story": {
+    "facebook": {
+      "at": "2026-10-22T10:41:38.180298+00:00",
+      "attempts": 1,
+      "id": "28691353720491968",
+      "ok": true,
+      "url": "https://facebook.com/28691353720491968"
+    },
+    "instagram": {
+      "at": "2026-10-22T10:42:31.078592+00:00",
+      "attempts": 1,
+      "id": "18072281507509733",
+      "ok": true,
+      "url": "https://www.instagram.com/stories/ambidsign/4013493390985570807"
+    }
   }
 }

@@ -62,5 +62,21 @@
       "ok": true,
       "url": "https://www.instagram.com/reel/DezZtw9iu6n/"
     }
+  },
+  "2026-10-23_11-00_story": {
+    "facebook": {
+      "at": "2026-10-23T09:01:04.103297+00:00",
+      "attempts": 1,
+      "id": "1609172454026089",
+      "ok": true,
+      "url": "https://facebook.com/1609172454026089"
+    },
+    "instagram": {
+      "at": "2026-10-23T09:01:47.151505+00:00",
+      "attempts": 1,
+      "id": "18102030566639561",
+      "ok": true,
+      "url": "https://www.instagram.com/stories/ambidsign/4014167412827972813"
+    }
   }
 }

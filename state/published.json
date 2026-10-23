@@ -78,5 +78,21 @@
       "ok": true,
       "url": "https://www.instagram.com/stories/ambidsign/4014167412827972813"
     }
+  },
+  "2026-10-23_14-00_post-anketa": {
+    "facebook": {
+      "at": "2026-10-23T12:01:03.255205+00:00",
+      "attempts": 1,
+      "id": "377022798835905_122228895860494366",
+      "ok": true,
+      "url": "https://facebook.com/377022798835905_122228895860494366"
+    },
+    "instagram": {
+      "at": "2026-10-23T12:01:24.241019+00:00",
+      "attempts": 1,
+      "id": "18068281421607028",
+      "ok": true,
+      "url": "https://www.instagram.com/p/De1gmHWF9pP/"
+    }
   }
 }

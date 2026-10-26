@@ -190,5 +190,21 @@
       "ok": true,
       "url": "https://www.instagram.com/stories/ambidsign/4016371937416314458"
     }
+  },
+  "2026-10-26_15-00_karusel-metriky": {
+    "facebook": {
+      "at": "2026-10-26T14:01:08.815468+00:00",
+      "attempts": 1,
+      "id": "377022798835905_122229220928494366",
+      "ok": true,
+      "url": "https://facebook.com/377022798835905_122229220928494366"
+    },
+    "instagram": {
+      "at": "2026-10-26T14:02:01.298710+00:00",
+      "attempts": 1,
+      "id": "17951619381337444",
+      "ok": true,
+      "url": "https://www.instagram.com/p/De9czS7mHDY/"
+    }
   }
 }

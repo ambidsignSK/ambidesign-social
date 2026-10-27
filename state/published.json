@@ -238,5 +238,21 @@
       "ok": true,
       "url": "https://www.instagram.com/stories/ambidsign/4017096683531505359"
     }
+  },
+  "2026-10-27_13-00_pribeh-blog": {
+    "facebook": {
+      "at": "2026-10-27T12:00:56.202536+00:00",
+      "attempts": 1,
+      "id": "377022798835905_122229317954494366",
+      "ok": true,
+      "url": "https://facebook.com/377022798835905_122229317954494366"
+    },
+    "instagram": {
+      "at": "2026-10-27T12:01:08.530387+00:00",
+      "attempts": 1,
+      "id": "17912911452502345",
+      "ok": true,
+      "url": "https://www.instagram.com/p/De_zwz9F_rf/"
+    }
   }
 }

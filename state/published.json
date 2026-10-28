@@ -286,5 +286,21 @@
       "ok": true,
       "url": "https://www.instagram.com/stories/ambidsign/4017821492028238317"
     }
+  },
+  "2026-10-28_13-00_post-mytus-vsade": {
+    "facebook": {
+      "at": "2026-10-28T12:00:56.893339+00:00",
+      "attempts": 1,
+      "id": "377022798835905_122229422552494366",
+      "ok": true,
+      "url": "https://facebook.com/377022798835905_122229422552494366"
+    },
+    "instagram": {
+      "at": "2026-10-28T12:01:26.751169+00:00",
+      "attempts": 1,
+      "id": "18163171861500432",
+      "ok": true,
+      "url": "https://www.instagram.com/p/DfCYjppFfVG/"
+    }
   }
 }

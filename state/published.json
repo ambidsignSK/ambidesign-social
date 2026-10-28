@@ -302,5 +302,21 @@
       "ok": true,
       "url": "https://www.instagram.com/p/DfCYjppFfVG/"
     }
+  },
+  "2026-10-28_18-00_reel": {
+    "facebook": {
+      "at": "2026-10-28T17:00:56.241874+00:00",
+      "attempts": 1,
+      "id": "122229450692494366",
+      "ok": true,
+      "url": "https://facebook.com/122229450692494366"
+    },
+    "instagram": {
+      "at": "2026-10-28T17:02:28.593654+00:00",
+      "attempts": 1,
+      "id": "18120022946517359",
+      "ok": true,
+      "url": "https://www.instagram.com/reel/DfC6_jXxP-A/"
+    }
   }
 }

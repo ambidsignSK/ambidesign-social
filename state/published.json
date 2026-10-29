@@ -318,5 +318,21 @@
       "ok": true,
       "url": "https://www.instagram.com/reel/DfC6_jXxP-A/"
     }
+  },
+  "2026-10-29_09-00_karusel-vianoce": {
+    "facebook": {
+      "at": "2026-10-29T08:01:07.546697+00:00",
+      "attempts": 1,
+      "id": "377022798835905_122229520208494366",
+      "ok": true,
+      "url": "https://facebook.com/377022798835905_122229520208494366"
+    },
+    "instagram": {
+      "at": "2026-10-29T08:01:53.915264+00:00",
+      "attempts": 1,
+      "id": "18105575750381693",
+      "ok": true,
+      "url": "https://www.instagram.com/p/DfEh-VFnaDp/"
+    }
   }
 }

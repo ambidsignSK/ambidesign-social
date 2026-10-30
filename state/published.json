@@ -382,5 +382,21 @@
       "ok": true,
       "url": "https://www.instagram.com/stories/ambidsign/4019270996210468469"
     }
+  },
+  "2026-10-30_14-00_pribeh-eshop-vianoce": {
+    "facebook": {
+      "at": "2026-10-30T13:00:54.076970+00:00",
+      "attempts": 1,
+      "id": "377022798835905_122229657710494366",
+      "ok": true,
+      "url": "https://facebook.com/377022798835905_122229657710494366"
+    },
+    "instagram": {
+      "at": "2026-10-30T13:01:12.787264+00:00",
+      "attempts": 1,
+      "id": "18100421468359438",
+      "ok": true,
+      "url": "https://www.instagram.com/p/DfHpAgJl6W9/"
+    }
   }
 }

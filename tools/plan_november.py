@@ -310,3 +310,141 @@ CAROUSELS = {
    p6=("Mesačná\nkontrola", "AI vyhľadávanie sa mení rýchlo. Sledujte trend.", "pozrite čísla raz mesačne."),
    p7=("Meriate návštevy z AI?", "Celý návod nájdete na blogu ambidesign.eu", "Test webu zadarmo → ambidesign.eu")),
 }
+
+# ---------------------------------------------------------------------------
+# Úprava 31.10.: témy, ktoré by opakovali október, nahradené novými.
+HT = "#malefirmy #podnikanie #slovensko"
+OVERRIDES = {
+ "2026-11-04_11-00_story-test-webu": dict(
+   cover=("Funguje", "váš web", "naozaj?", "Zistite to za minútu.\nTest webu zadarmo.")),
+ "2026-11-09_12-00_karusel-black-friday": dict(
+   id="2026-11-09_12-00_karusel-cena-google-ads",
+   caption="""Koľko stojí reklama na Google pre malú firmu? 💶
+
+Najčastejšia otázka, ktorú dostávam. Odpoveď nie je jedno číslo, ale dá sa odhadnúť:
+
+1️⃣ Cena za klik podľa odvetvia
+2️⃣ Malý rozpočet stačí, ak je cielenie úzke
+3️⃣ Správa kampane je tiež náklad
+4️⃣ Prvý mesiac sa algoritmus učí
+5️⃣ Ceny sa menia so sezónou
+
+Potiahnite doprava 👉 ku každému bodu je konkrétny tip.
+
+📌 Celý prehľad cien: ambidesign.eu/blog/google-ads-pre-male-firmy-kolko-stoji-reklama
+
+Koľko dávate na reklamu mesačne vy? 👇
+
+#googleads #ppc #reklama """ + HT),
+ "2026-11-12_18-00_reel-publikum": dict(
+   id="2026-11-12_18-00_reel-google-vs-meta",
+   cover=("Google Ads", "alebo", "Meta Ads?", "Kde začať s reklamou,\nkeď máte malý rozpočet"),
+   scenes=["magnifier", "audience", "chart_up"],
+   texts=[L("Google Ads:", "ľudia, ktorí už hľadajú."), L("Meta Ads:", "ľudia, ktorí ešte nehľadajú."), L("Najviac prinesie", "kombinácia oboch.")],
+   caption="""Google Ads alebo Meta Ads? 🤔
+
+Google zachytí ľudí, ktorí vašu službu práve hľadajú. Facebook a Instagram oslovia ľudí, ktorí o vás ešte nevedia, ale sú vaši zákazníci.
+
+Ktorý kanál je pre vás prvý, závisí od toho, čo predávate.
+
+📌 Porovnanie s príkladmi: ambidesign.eu/blog/meta-ads-alebo-google-ads
+
+Na ktorej platforme máte reklamu vy? 👇
+
+#googleads #metaads #reklama """ + HT),
+ "2026-11-14_18-00_reel-drahe-kliky": dict(
+   id="2026-11-14_18-00_reel-performance-max",
+   cover=("Kampaň", "PMax:", "áno či nie?", "Čo robí kampaň PMax\nza vás a čo nie"),
+   scenes=["networks", "gauges", "checklist"],
+   texts=[L("PMax ukáže reklamu", "na Google, YouTube aj v Gmaile."), L("Bez dobrých dát", "míňa rozpočet naslepo."), L("Najprv meranie,", "potom Performance Max.")],
+   caption="""Performance Max: kampaň, ktorá rozhoduje za vás. 🤖
+
+Jedna kampaň ukáže reklamu vo vyhľadávaní, na YouTube, v Gmaile aj na partnerských weboch. Znie to skvele, ale bez správneho merania nevie, koho hľadať.
+
+Kedy PMax dáva zmysel a kedy radšej nie:
+📌 ambidesign.eu/blog/performance-max-ako-funguje
+
+Skúšali ste už PMax? 👇
+
+#googleads #performancemax #ppc """ + HT),
+ "2026-11-16_12-00_karusel-web-nepredava": dict(
+   id="2026-11-16_12-00_karusel-chatgpt-prompty",
+   caption="""5 úloh, ktoré vám ChatGPT urobí za pár minút ⏱️
+
+Nemusíte byť technik. Stačí vedieť, čo sa ho opýtať:
+
+1️⃣ Odpovede na časté otázky zákazníkov
+2️⃣ Nápady na príspevky na mesiac dopredu
+3️⃣ Popisy služieb a produktov
+4️⃣ Prehľad, čo robí konkurencia
+5️⃣ Návrh e-mailu pre klienta
+
+Potiahnite doprava 👉 pri každej úlohe je hotový prompt.
+
+📌 Ďalšie prompty pre malú firmu: ambidesign.eu/blog/chatgpt-pre-malu-firmu-prompty
+
+Na čo ChatGPT používate vy? 👇
+
+#chatgpt #ai #marketing """ + HT),
+ "2026-11-17_18-00_reel-rychlost": dict(
+   id="2026-11-17_18-00_reel-web-alebo-eshop",
+   cover=("Web", "alebo", "e-shop?", "Čo naozaj potrebujete\npre svoje podnikanie"),
+   scenes=["documents", "cart", "gauges"],
+   texts=[L("Predávate služby?", "Stačí web s dopytom."), L("Predávate tovar?", "Potrebujete e-shop."), L("Zlá voľba", "stojí čas aj peniaze.")],
+   caption="""Web alebo e-shop? 🛒
+
+Remeselník, kaderníčka či účtovníčka nepotrebujú košík a platobnú bránu. Potrebujú web, z ktorého príde dopyt alebo telefonát.
+
+E-shop dáva zmysel, keď predávate tovar priamo online.
+
+📌 Ako sa rozhodnúť: ambidesign.eu/blog/webova-stranka-vs-eshop
+
+Čo máte vy, web alebo e-shop? 👇
+
+#webstranka #eshop #web """ + HT),
+ "2026-11-28_18-00_reel-po-black-friday": dict(
+   id="2026-11-28_18-00_reel-obsah-s-ai",
+   cover=("Obsah", "s AI", "bez chýb?", "Ako písať s AI tak,\naby to Google ocenil"),
+   scenes=["documents", "gear", "stars"],
+   texts=[L("AI napíše rýchlo,", "ale nepozná vašu firmu."), L("Pridajte vlastné", "skúsenosti a čísla."), L("Google odmeňuje", "užitočný obsah.")],
+   caption="""Píšete texty cez AI? ✍️
+
+Nie je to chyba. Chybou je zverejniť ich bez úprav. AI nepozná vašich zákazníkov, vaše ceny ani vaše skúsenosti, a práve to robí obsah užitočným.
+
+📌 Ktoré AI nástroje používať a ako: ambidesign.eu/blog/ai-nastroje-na-tvorbu-obsahu-seo
+
+Používate AI na texty? 👇
+
+#ai #obsah #seo """ + HT),
+}
+NEW_CAROUSELS = {
+ "2026-11-09_12-00_karusel-cena-google-ads": dict(
+   p1=("Koľko", "stojí", "Google Ads?", "5 vecí, od ktorých\nzávisí cena reklamy"),
+   p2=("Cena\nza klik", "Závisí od odvetvia a konkurencie, nie od Googlu.", "odhad nájdete v Plánovači kľúčových slov."),
+   p3=("Malý ", "rozpočet", " stačí", "Pri presnom cielení stačí na začiatok aj 10 € denne.", "jedna služba, jedno mesto."),
+   p4=("Správa\nkampane", "Aj čas strávený na kampani niečo stojí.", " počítajte so správou v rozpočte."),
+   p5=("Prvý\nmesiac", "Algoritmus sa učí, výsledky prídu postupne.", "\nčakajte 4 až 6 týždňov\nna stabilné čísla."),
+   p6=("Sezóna\na ceny", "V decembri sú kliky drahšie, v januári lacnejšie.", "rozpočet plánujte podľa sezóny."),
+   p7=("Koľko by stál váš klik?", "Celý prehľad cien nájdete na blogu ambidesign.eu", "Test webu zadarmo → ambidesign.eu")),
+ "2026-11-16_12-00_karusel-chatgpt-prompty": dict(
+   p1=("5 úloh", "pre", "ChatGPT", "Hotové prompty\npre malú firmu"),
+   p2=("Časté\notázky", "„Napíš 10 otázok, ktoré dávajú zákazníci [služby].“", "odpovede doplňte na web."),
+   p3=("Plán ", "príspevkov", " na mesiac", "„Navrhni 12 tém príspevkov pre [firma] na november.“", "vyberte tie, ktoré poznáte z praxe."),
+   p4=("Popisy\nslužieb", "„Prepíš tento text tak, aby hovoril o prínose pre zákazníka.“", " vložte svoj pôvodný text."),
+   p5=("Prehľad\nkonkurencie", "„Porovnaj služby týchto 3 firiem a nájdi rozdiely.“", "\nvložte texty z ich\nwebov."),
+   p6=("E-mail\nklientovi", "„Napíš zdvorilú pripomienku nezaplatenej faktúry.“", "vždy si text ešte prečítajte."),
+   p7=("Ktorý prompt skúsite?", "Ďalšie prompty nájdete na blogu ambidesign.eu", "Test webu zadarmo → ambidesign.eu")),
+}
+# 2.11.: dva slajdy sa prekrývali s reelom zo 16.10.
+CAROUSELS["2026-11-02_12-00_karusel-ai-odpovede"]["p2"] = ("Jasné služby\na ceny", "AI odporúča firmy, pri ktorých presne vie, čo robia.", "služby, ceny a lokalita na jednej stránke.")
+CAROUSELS["2026-11-02_12-00_karusel-ai-odpovede"]["p6"] = ("Aktuálny\nobsah", "AI uprednostňuje čerstvé a overené informácie.", "aktualizujte dátumy a fakty na webe.")
+OLD_IDS = {}
+for x in PLAN:
+    o = OVERRIDES.get(x["id"])
+    if o:
+        old = x["id"]; x.update(o)
+        if x["id"] != old: OLD_IDS[x["id"]] = old
+CAROUSELS.update(NEW_CAROUSELS)
+PLAN[0]["caption"] = PLAN[0]["caption"].replace("1️⃣ Web, ktorý odpovedá na otázky zákazníkov", "1️⃣ Jasne popísané služby, ceny a lokalitu").replace(
+    "5️⃣ Zmienky o vás na iných weboch", "5️⃣ Aktuálny obsah s overenými faktami").replace(
+    "Skúšali ste sa už opýtať ChatGPT na svoju firmu? 👇", "Ktorý z týchto bodov máte na webe hotový? Napíšte číslo 👇")

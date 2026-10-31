@@ -430,5 +430,21 @@
       "ok": true,
       "url": "https://www.instagram.com/stories/ambidsign/4019995741465935318"
     }
+  },
+  "2026-10-31_18-00_reel": {
+    "facebook": {
+      "at": "2026-10-31T17:00:56.104812+00:00",
+      "attempts": 1,
+      "id": "122229788924494366",
+      "ok": true,
+      "url": "https://facebook.com/122229788924494366"
+    },
+    "instagram": {
+      "at": "2026-10-31T17:01:40.334276+00:00",
+      "attempts": 1,
+      "id": "18004176360001122",
+      "ok": true,
+      "url": "https://www.instagram.com/reel/DfKpRlTzVsM/"
+    }
   }
 }

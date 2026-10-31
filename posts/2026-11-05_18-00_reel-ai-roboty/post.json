@@ -1,0 +1,13 @@
+{
+  "publish_at": "2026-11-05T18:00:00+01:00",
+  "type": "reel",
+  "networks": [
+    "facebook",
+    "instagram"
+  ],
+  "caption": "Váš web môže AI robotov blokovať a ani o tom neviete. 🚫🤖\n\nFirewall, Cloudflare alebo staré nastavenie robots.txt často zastavia aj roboty ChatGPT či Perplexity. Výsledok: AI o vás nič nevie a neodporučí vás.\n\n📌 Ako to skontrolovať krok za krokom: ambidesign.eu/blog/ai-roboty-robots-txt-firewall-cloudflare\n\nKontrolovali ste už svoj robots.txt? 👇\n\n#aivyhladavanie #seo #webstranka #cloudflare #slovensko",
+  "media": [
+    "reel.mp4"
+  ],
+  "cover_ms": 1000
+}

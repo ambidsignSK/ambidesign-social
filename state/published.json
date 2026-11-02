@@ -446,5 +446,18 @@
       "ok": true,
       "url": "https://www.instagram.com/reel/DfKpRlTzVsM/"
     }
+  },
+  "2026-11-02_12-00_karusel-ai-odpovede": {
+    "facebook": {
+      "at": "2026-11-02T11:01:09.959493+00:00",
+      "attempts": 1,
+      "id": "377022798835905_122229983420494366",
+      "ok": true,
+      "url": "https://facebook.com/377022798835905_122229983420494366"
+    },
+    "instagram": {
+      "attempts": 1,
+      "error": "9007/2207027 Media ID is not available"
+    }
   }
 }

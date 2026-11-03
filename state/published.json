@@ -462,5 +462,21 @@
       "ok": true,
       "url": "https://www.instagram.com/p/DfPKOj0FC5W/"
     }
+  },
+  "2026-11-03_18-00_reel-chatgpt-firma": {
+    "facebook": {
+      "at": "2026-11-03T17:01:17.555964+00:00",
+      "attempts": 1,
+      "id": "122230154108494366",
+      "ok": true,
+      "url": "https://facebook.com/122230154108494366"
+    },
+    "instagram": {
+      "at": "2026-11-03T17:02:00.542415+00:00",
+      "attempts": 1,
+      "id": "17993515794065583",
+      "ok": true,
+      "url": "https://www.instagram.com/reel/DfSXsyEheYd/"
+    }
   }
 }

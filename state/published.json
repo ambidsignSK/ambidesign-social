@@ -478,5 +478,21 @@
       "ok": true,
       "url": "https://www.instagram.com/reel/DfSXsyEheYd/"
     }
+  },
+  "2026-11-04_11-00_story-test-webu": {
+    "facebook": {
+      "at": "2026-11-04T10:01:00.891207+00:00",
+      "attempts": 1,
+      "id": "2286034488840905",
+      "ok": true,
+      "url": "https://facebook.com/2286034488840905"
+    },
+    "instagram": {
+      "at": "2026-11-04T10:01:09.992302+00:00",
+      "attempts": 1,
+      "id": "18442348807183624",
+      "ok": true,
+      "url": "https://www.instagram.com/stories/ambidsign/4022894886315327381"
+    }
   }
 }

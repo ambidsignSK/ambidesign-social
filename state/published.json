@@ -494,5 +494,21 @@
       "ok": true,
       "url": "https://www.instagram.com/stories/ambidsign/4022894886315327381"
     }
+  },
+  "2026-11-05_18-00_reel-ai-roboty": {
+    "facebook": {
+      "at": "2026-11-05T17:01:06.418003+00:00",
+      "attempts": 1,
+      "id": "122230445960494366",
+      "ok": true,
+      "url": "https://facebook.com/122230445960494366"
+    },
+    "instagram": {
+      "at": "2026-11-05T17:01:46.025939+00:00",
+      "attempts": 1,
+      "id": "18084773759708728",
+      "ok": true,
+      "url": "https://www.instagram.com/reel/DfXhRZEPgi4/"
+    }
   }
 }

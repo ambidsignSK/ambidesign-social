@@ -510,5 +510,21 @@
       "ok": true,
       "url": "https://www.instagram.com/reel/DfXhRZEPgi4/"
     }
+  },
+  "2026-11-07_18-00_reel-bing": {
+    "facebook": {
+      "at": "2026-11-07T17:00:58.872900+00:00",
+      "attempts": 1,
+      "id": "122230800638494366",
+      "ok": true,
+      "url": "https://facebook.com/122230800638494366"
+    },
+    "instagram": {
+      "at": "2026-11-07T17:01:39.123606+00:00",
+      "attempts": 1,
+      "id": "18346776265250087",
+      "ok": true,
+      "url": "https://www.instagram.com/reel/Dfcq2IsBd9q/"
+    }
   }
 }

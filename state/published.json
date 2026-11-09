@@ -526,5 +526,21 @@
       "ok": true,
       "url": "https://www.instagram.com/reel/Dfcq2IsBd9q/"
     }
+  },
+  "2026-11-09_12-00_karusel-cena-google-ads": {
+    "facebook": {
+      "at": "2026-11-09T11:01:05.223367+00:00",
+      "attempts": 1,
+      "id": "377022798835905_122231032388494366",
+      "ok": true,
+      "url": "https://facebook.com/377022798835905_122231032388494366"
+    },
+    "instagram": {
+      "at": "2026-11-09T11:01:45.871474+00:00",
+      "attempts": 1,
+      "id": "17890751841474709",
+      "ok": true,
+      "url": "https://www.instagram.com/p/DfhLTZWDGW6/"
+    }
   }
 }

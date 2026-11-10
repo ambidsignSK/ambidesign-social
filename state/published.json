@@ -542,5 +542,21 @@
       "ok": true,
       "url": "https://www.instagram.com/p/DfhLTZWDGW6/"
     }
+  },
+  "2026-11-10_18-00_reel-zlava-nestaci": {
+    "facebook": {
+      "at": "2026-11-10T17:01:10.500331+00:00",
+      "attempts": 1,
+      "id": "122231169260494366",
+      "ok": true,
+      "url": "https://facebook.com/122231169260494366"
+    },
+    "instagram": {
+      "at": "2026-11-10T17:01:42.405088+00:00",
+      "attempts": 1,
+      "id": "17996637273025315",
+      "ok": true,
+      "url": "https://www.instagram.com/reel/DfkZQKLlFkR/"
+    }
   }
 }

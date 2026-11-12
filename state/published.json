@@ -574,5 +574,21 @@
       "ok": true,
       "url": "https://www.instagram.com/stories/ambidsign/4027968247655321788"
     }
+  },
+  "2026-11-12_18-00_reel-google-vs-meta": {
+    "facebook": {
+      "at": "2026-11-12T17:01:05.030686+00:00",
+      "attempts": 1,
+      "id": "122231377652494366",
+      "ok": true,
+      "url": "https://facebook.com/122231377652494366"
+    },
+    "instagram": {
+      "at": "2026-11-12T17:01:48.399665+00:00",
+      "attempts": 1,
+      "id": "18137158318638551",
+      "ok": true,
+      "url": "https://www.instagram.com/reel/Dfpi1RjsXKU/"
+    }
   }
 }

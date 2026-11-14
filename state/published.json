@@ -590,5 +590,21 @@
       "ok": true,
       "url": "https://www.instagram.com/reel/Dfpi1RjsXKU/"
     }
+  },
+  "2026-11-14_18-00_reel-performance-max": {
+    "facebook": {
+      "at": "2026-11-14T17:00:59.400460+00:00",
+      "attempts": 1,
+      "id": "122231590982494366",
+      "ok": true,
+      "url": "https://facebook.com/122231590982494366"
+    },
+    "instagram": {
+      "at": "2026-11-14T17:01:42.080222+00:00",
+      "attempts": 1,
+      "id": "17879459091634880",
+      "ok": true,
+      "url": "https://www.instagram.com/reel/Dfusai0AAXO/"
+    }
   }
 }

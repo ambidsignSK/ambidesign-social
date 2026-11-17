@@ -622,5 +622,21 @@
       "ok": true,
       "url": "https://www.instagram.com/p/DfzNXDGF1V6/"
     }
+  },
+  "2026-11-17_18-00_reel-web-alebo-eshop": {
+    "facebook": {
+      "at": "2026-11-17T17:01:05.295199+00:00",
+      "attempts": 1,
+      "id": "122231918486494366",
+      "ok": true,
+      "url": "https://facebook.com/122231918486494366"
+    },
+    "instagram": {
+      "at": "2026-11-17T17:01:48.004000+00:00",
+      "attempts": 1,
+      "id": "17917064640554922",
+      "ok": true,
+      "url": "https://www.instagram.com/reel/Df2aznjMLBd/"
+    }
   }
 }

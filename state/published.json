@@ -654,5 +654,21 @@
       "ok": true,
       "url": "https://www.instagram.com/stories/ambidsign/4033041730614270226"
     }
+  },
+  "2026-11-19_18-00_reel-texty": {
+    "facebook": {
+      "at": "2026-11-19T17:01:09.821818+00:00",
+      "attempts": 1,
+      "id": "122232131018494366",
+      "ok": true,
+      "url": "https://facebook.com/122232131018494366"
+    },
+    "instagram": {
+      "at": "2026-11-19T17:02:45.786125+00:00",
+      "attempts": 1,
+      "id": "18122242198756181",
+      "ok": true,
+      "url": "https://www.instagram.com/reel/Df7khOHBmtn/"
+    }
   }
 }

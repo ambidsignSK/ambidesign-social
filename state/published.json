@@ -670,5 +670,21 @@
       "ok": true,
       "url": "https://www.instagram.com/reel/Df7khOHBmtn/"
     }
+  },
+  "2026-11-21_18-00_reel-platforma": {
+    "facebook": {
+      "at": "2026-11-21T17:01:02.967607+00:00",
+      "attempts": 1,
+      "id": "122232341660494366",
+      "ok": true,
+      "url": "https://facebook.com/122232341660494366"
+    },
+    "instagram": {
+      "at": "2026-11-21T17:01:35.598466+00:00",
+      "attempts": 1,
+      "id": "17918728860471107",
+      "ok": true,
+      "url": "https://www.instagram.com/reel/DgAt_HmBdXw/"
+    }
   }
 }

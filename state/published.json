@@ -686,5 +686,21 @@
       "ok": true,
       "url": "https://www.instagram.com/reel/DgAt_HmBdXw/"
     }
+  },
+  "2026-11-23_12-00_karusel-ai-ga4": {
+    "facebook": {
+      "at": "2026-11-23T11:01:15.353468+00:00",
+      "attempts": 1,
+      "id": "377022798835905_122232543434494366",
+      "ok": true,
+      "url": "https://facebook.com/377022798835905_122232543434494366"
+    },
+    "instagram": {
+      "at": "2026-11-23T11:01:54.272756+00:00",
+      "attempts": 1,
+      "id": "18072147797782593",
+      "ok": true,
+      "url": "https://www.instagram.com/p/DgFOc2el1O7/"
+    }
   }
 }

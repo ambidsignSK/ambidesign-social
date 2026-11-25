@@ -718,5 +718,21 @@
       "ok": true,
       "url": "https://www.instagram.com/reel/DgIcXhJh6gB/"
     }
+  },
+  "2026-11-25_11-00_story-black-friday": {
+    "facebook": {
+      "at": "2026-11-25T10:00:59.875381+00:00",
+      "attempts": 1,
+      "id": "4074609506176694",
+      "ok": true,
+      "url": "https://facebook.com/4074609506176694"
+    },
+    "instagram": {
+      "at": "2026-11-25T10:01:09.047147+00:00",
+      "attempts": 1,
+      "id": "17918490801507943",
+      "ok": true,
+      "url": "https://www.instagram.com/stories/ambidsign/4038115163970672322"
+    }
   }
 }

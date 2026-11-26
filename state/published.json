@@ -734,5 +734,21 @@
       "ok": true,
       "url": "https://www.instagram.com/stories/ambidsign/4038115163970672322"
     }
+  },
+  "2026-11-26_18-00_reel-strukturovane-data": {
+    "facebook": {
+      "at": "2026-11-26T17:01:03.657367+00:00",
+      "attempts": 1,
+      "id": "122232927584494366",
+      "ok": true,
+      "url": "https://facebook.com/122232927584494366"
+    },
+    "instagram": {
+      "at": "2026-11-26T17:01:43.830331+00:00",
+      "attempts": 1,
+      "id": "18350539651249228",
+      "ok": true,
+      "url": "https://www.instagram.com/reel/DgNl9NCB-dH/"
+    }
   }
 }
